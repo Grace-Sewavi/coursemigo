@@ -7,6 +7,9 @@ import project6_img from '../../assets/courseF.png'
 import project7_img from '../../assets/courseG.png'
 import project8_img from '../../assets/courseH.png'
 import project9_img from '../../assets/courseEJ.png'
+import project10_img from '../../assets/course(I).png'
+import project11_img from '../../assets/course(II).png'
+import project12_img from '../../assets/course(III).png'
 
 
 export const courses_data =[
@@ -60,18 +63,42 @@ export const certificate_data =[
         c_no:"7",
         c_name:"Post Graduate Certificate in Digital \n Manufacturing",
         c_img:project7_img,
-        ins_name:"Williams James"
+        ins_name:"University Certificate"
     },
     {
         c_no:"8",
         c_name:"Post Graduate Certificate in Cyber Security",
         c_img:project8_img,
-        ins_name:"Williams James"
+        ins_name:"University Certificate"
     },
     {
         c_no:"9",
         c_name:"Power Electronics and Motors for \n Electric Vehicle",
         c_img:project9_img,
-        ins_name:"Williams James"
+        ins_name:"University Certificate"
     },
+]
+
+export const newCourse_data =[
+
+    {
+        c_no:"10",
+        c_name:"Google Project Managements",
+        c_img:project10_img,
+        ins_name:"Professional Certificate"
+        
+    },
+    {
+        c_no:"11",
+        c_name:"Meta Data Analyst",
+        c_img:project11_img,
+        ins_name:"Professional Certificate"
+        
+    },
+    {
+        c_no:"12",
+        c_name:"IBM Data Science",
+        c_img:project12_img,
+        ins_name:"Professional Certificate"
+    }
 ]
